@@ -14,7 +14,7 @@ import time
 from smtplib import SMTP
 from tabulate import tabulate
 import mysql.connector
-mydb = mysql.connector.connect(host = "localhost" ,user = "root", passwd = "jayshah123", database = "cowin")
+mydb = mysql.connector.connect(host = "us-cdbr-east-04.cleardb.com" ,user = "b78f4b602b5eaa", passwd = "4e66febc", database = "heroku_cc968c7647eee32")
 mycursor = mydb.cursor()
 
 
@@ -171,7 +171,7 @@ def msg():
         }
     x= details.get("email")
     y =int(details.get("pincode"))
-    mycursor.execute("""Insert into avail(Email,Pincode) values(%s,%s)""", (x,y))
+    mycursor.execute("""Insert into avail(email,pincode) values(%s,%s)""", (x,y))
     mydb.commit()
     print("Data Entered Successfully")
     
