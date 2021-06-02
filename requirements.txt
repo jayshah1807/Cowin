@@ -1,3 +1,10 @@
 datetime==4.3
 numpy==1.20.1
-requests==4.0.0
+requests==2.25.1
+pandas==1.2.4
+streamlit==0.82.0
+fake_useragent==0.1.11
+smtplib==3.3
+tabulate==0.8.9
+mysql.connector==2.2.9
+htbuilder==0.3.0
