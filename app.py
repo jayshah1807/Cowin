@@ -162,7 +162,7 @@ else:
     st.error("Unable to fetch data currently, please try after sometime")
 
 
-user_input = st.text_input("Mobile Number ")
+user_input = st.text_input("Please Enter your Email Id to get Notification")
 def msg():
     
     details = {
