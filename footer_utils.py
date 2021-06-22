@@ -58,7 +58,7 @@ def footer(inp_views):
         br(),
         b(
         "Created by "),
-        b(link("https://github.com/bhattbhavesh91", "Jay Shah")),
+        b(link("https://github.com/jayshah1807/Cowin", "Jay Shah")),
         #div(
         #div(_class="btn-o bg"  style=styles(width= percent(100))),link("https://www.instagram.com/myurl/" ,i(_class="fa fa-instagram ft14" style=styles(font-size=px(44), color='red')))),
 
